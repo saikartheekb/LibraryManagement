@@ -22,6 +22,7 @@ public class IssueBook extends javax.swing.JFrame {
      */
     public IssueBook() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -75,7 +76,7 @@ public class IssueBook extends javax.swing.JFrame {
         getContentPane().add(dueDateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(287, 245, 226, -1));
 
         issueButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        issueButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/issue book.png"))); // NOI18N
+        issueButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/issue book.png"))); // NOI18N
         issueButton.setText("Issue");
         issueButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,7 +86,7 @@ public class IssueBook extends javax.swing.JFrame {
         getContentPane().add(issueButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(287, 285, -1, -1));
 
         closeButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        closeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/red-x-mark-transparent-background-3.png"))); // NOI18N
+        closeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/red-x-mark-transparent-background-3.png"))); // NOI18N
         closeButton.setText("Close");
         closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -94,7 +95,7 @@ public class IssueBook extends javax.swing.JFrame {
         });
         getContentPane().add(closeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(423, 285, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/123456.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/123456.png"))); // NOI18N
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 450));
 
         pack();
@@ -102,8 +103,8 @@ public class IssueBook extends javax.swing.JFrame {
 
     private void closeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeButtonActionPerformed
         // TODO add your handling code here:
-        setVisible(false);
-//        dispose();
+//        setVisible(false);
+        dispose();
     }//GEN-LAST:event_closeButtonActionPerformed
 
     private void issueButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_issueButtonActionPerformed

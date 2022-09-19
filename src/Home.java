@@ -42,7 +42,8 @@ public class Home extends JFrame {
         setTitle("Library Management System");
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        newStudentButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/member-add-on-300x300.png"))); // NOI18N
+        newStudentButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        newStudentButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/member-add-on-300x300.png"))); // NOI18N
         newStudentButton.setText("New Student");
         newStudentButton.setPreferredSize(new java.awt.Dimension(159, 59));
         newStudentButton.addActionListener(new java.awt.event.ActionListener() {
@@ -50,9 +51,10 @@ public class Home extends JFrame {
                 newStudentButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(newStudentButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 17, -1, -1));
+        getContentPane().add(newStudentButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 17, 170, -1));
 
-        newBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/New book.png"))); // NOI18N
+        newBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        newBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/New book.png"))); // NOI18N
         newBookButton.setText("New Book");
         newBookButton.setPreferredSize(new java.awt.Dimension(159, 59));
         newBookButton.addActionListener(new java.awt.event.ActionListener() {
@@ -60,9 +62,10 @@ public class Home extends JFrame {
                 newBookButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(newBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 17, -1, -1));
+        getContentPane().add(newBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, 170, -1));
 
-        statisticsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Statics.png"))); // NOI18N
+        statisticsButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        statisticsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Statics.png"))); // NOI18N
         statisticsButton.setText("Statistics");
         statisticsButton.setPreferredSize(new java.awt.Dimension(159, 59));
         statisticsButton.addActionListener(new java.awt.event.ActionListener() {
@@ -70,9 +73,10 @@ public class Home extends JFrame {
                 statisticsButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(statisticsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 20, -1, -1));
+        getContentPane().add(statisticsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 20, 170, -1));
 
-        issueBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/issue.png"))); // NOI18N
+        issueBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        issueBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/issue.png"))); // NOI18N
         issueBookButton.setText("Issue Book");
         issueBookButton.setPreferredSize(new java.awt.Dimension(159, 59));
         issueBookButton.addActionListener(new java.awt.event.ActionListener() {
@@ -80,9 +84,10 @@ public class Home extends JFrame {
                 issueBookButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(issueBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 20, -1, -1));
+        getContentPane().add(issueBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 20, 170, -1));
 
-        returnBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/return-book-1-560407.png"))); // NOI18N
+        returnBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        returnBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/return-book-1-560407.png"))); // NOI18N
         returnBookButton.setText("Return Book");
         returnBookButton.setPreferredSize(new java.awt.Dimension(159, 59));
         returnBookButton.addActionListener(new java.awt.event.ActionListener() {
@@ -90,9 +95,10 @@ public class Home extends JFrame {
                 returnBookButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(returnBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 20, -1, -1));
+        getContentPane().add(returnBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 20, 170, -1));
 
-        logoutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/exit.png"))); // NOI18N
+        logoutButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        logoutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/exit.png"))); // NOI18N
         logoutButton.setText("Logout");
         logoutButton.setPreferredSize(new java.awt.Dimension(159, 59));
         logoutButton.addActionListener(new java.awt.event.ActionListener() {
@@ -100,9 +106,9 @@ public class Home extends JFrame {
                 logoutButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(logoutButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1190, 20, -1, -1));
+        getContentPane().add(logoutButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 20, 170, -1));
 
-        backgroundImageHomeLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Library_Book_532388_1366x768.jpg"))); // NOI18N
+        backgroundImageHomeLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Library_Book_532388_1366x768.jpg"))); // NOI18N
         getContentPane().add(backgroundImageHomeLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-4, -2, 1370, 770));
 
         pack();
@@ -110,7 +116,8 @@ public class Home extends JFrame {
 
     private void logoutButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_logoutButtonActionPerformed
         // TODO add your handling code here:
-        setVisible(false);
+//        setVisible(false);
+        dispose();
         new Login().setVisible(true);
     }//GEN-LAST:event_logoutButtonActionPerformed
 

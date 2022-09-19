@@ -90,7 +90,7 @@ public class NewStudent extends javax.swing.JFrame {
         getContentPane().add(branchNameComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(265, 281, 226, -1));
 
         saveButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        saveButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/save-icon--1.png"))); // NOI18N
+        saveButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save-icon--1.png"))); // NOI18N
         saveButton.setText("Save");
         saveButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,7 +100,7 @@ public class NewStudent extends javax.swing.JFrame {
         getContentPane().add(saveButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(265, 325, -1, -1));
 
         closeButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        closeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/red-x-mark-transparent-background-3.png"))); // NOI18N
+        closeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/red-x-mark-transparent-background-3.png"))); // NOI18N
         closeButton.setText("Close");
         closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,7 +109,7 @@ public class NewStudent extends javax.swing.JFrame {
         });
         getContentPane().add(closeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 325, -1, -1));
 
-        newStudentBackgroundImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/123456.png"))); // NOI18N
+        newStudentBackgroundImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/123456.png"))); // NOI18N
         getContentPane().add(newStudentBackgroundImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, -1));
 
         pack();
@@ -143,7 +143,8 @@ public class NewStudent extends javax.swing.JFrame {
 
     private void closeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeButtonActionPerformed
         // TODO add your handling code here:
-        setVisible(false);
+        dispose();
+//        setVisible(false);
     }//GEN-LAST:event_closeButtonActionPerformed
 
     /**

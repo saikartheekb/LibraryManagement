@@ -16,6 +16,7 @@ public class ReturnBook extends javax.swing.JFrame {
      */
     public ReturnBook() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -79,7 +80,7 @@ public class ReturnBook extends javax.swing.JFrame {
         getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(241, 241, 248, -1));
 
         searchButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        searchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/search.png"))); // NOI18N
+        searchButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
         searchButton.setText("Search");
         searchButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -89,7 +90,7 @@ public class ReturnBook extends javax.swing.JFrame {
         getContentPane().add(searchButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 158, -1, -1));
 
         returnButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        returnButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/return book png.png"))); // NOI18N
+        returnButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/return book png.png"))); // NOI18N
         returnButton.setText("Return");
         returnButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,7 +100,7 @@ public class ReturnBook extends javax.swing.JFrame {
         getContentPane().add(returnButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(241, 281, -1, -1));
 
         cancelButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        cancelButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/red-x-mark-transparent-background-3.png"))); // NOI18N
+        cancelButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/red-x-mark-transparent-background-3.png"))); // NOI18N
         cancelButton.setText("Cancel");
         cancelButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -166,7 +167,8 @@ public class ReturnBook extends javax.swing.JFrame {
 
     private void cancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelButtonActionPerformed
         // TODO add your handling code here:
-        setVisible(false);
+        dispose();
+//        setVisible(false);
     }//GEN-LAST:event_cancelButtonActionPerformed
 
     /**

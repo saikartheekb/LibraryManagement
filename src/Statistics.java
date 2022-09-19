@@ -17,6 +17,7 @@ public class Statistics extends javax.swing.JFrame {
      */
     public Statistics() {
         initComponents();
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -88,7 +89,7 @@ public class Statistics extends javax.swing.JFrame {
         getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 231, 688, 135));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/red-x-mark-transparent-background-3.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/red-x-mark-transparent-background-3.png"))); // NOI18N
         jButton1.setText("Close");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,7 +98,7 @@ public class Statistics extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(567, 404, -1, -1));
 
-        statisticsBackgroundLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/123456.png"))); // NOI18N
+        statisticsBackgroundLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/123456.png"))); // NOI18N
         getContentPane().add(statisticsBackgroundLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
