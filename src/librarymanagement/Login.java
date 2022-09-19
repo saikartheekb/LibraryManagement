@@ -60,7 +60,7 @@ public class Login extends JFrame {
         getContentPane().add(passwordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 350, 248, -1));
 
         loginButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        loginButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/login.png"))); // NOI18N
+        loginButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/login.png"))); // NOI18N
         loginButton.setText("Login");
         loginButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -70,7 +70,7 @@ public class Login extends JFrame {
         getContentPane().add(loginButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 410, -1, -1));
 
         cancelButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        cancelButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/red-x-mark-transparent-background-3.png"))); // NOI18N
+        cancelButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/red-x-mark-transparent-background-3.png"))); // NOI18N
         cancelButton.setText("Cancel");
         cancelButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,7 +79,7 @@ public class Login extends JFrame {
         });
         getContentPane().add(cancelButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 410, -1, -1));
 
-        backgroundImageLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Login background.PNG"))); // NOI18N
+        backgroundImageLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/Login background.PNG"))); // NOI18N
         getContentPane().add(backgroundImageLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-4, -3, 1370, 710));
 
         pack();

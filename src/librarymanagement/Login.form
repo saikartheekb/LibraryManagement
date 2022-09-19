@@ -82,7 +82,7 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/login.png"/>
+          <Image iconType="3" name="/librarymanagement/images/login.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Login"/>
       </Properties>
@@ -101,7 +101,7 @@
           <Font name="Segoe UI" size="14" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/red-x-mark-transparent-background-3.png"/>
+          <Image iconType="3" name="/librarymanagement/images/red-x-mark-transparent-background-3.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Cancel"/>
       </Properties>
@@ -117,7 +117,7 @@
     <Component class="javax.swing.JLabel" name="backgroundImageLabel">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/images/Login background.PNG"/>
+          <Image iconType="3" name="/librarymanagement/images/Login background.PNG"/>
         </Property>
       </Properties>
       <Constraints>

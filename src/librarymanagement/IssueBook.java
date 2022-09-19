@@ -40,14 +40,14 @@ public class IssueBook extends javax.swing.JFrame {
         bookIDLabel = new javax.swing.JLabel();
         studentIDLabel = new javax.swing.JLabel();
         issueDateLabel = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        dueDateLabel = new javax.swing.JLabel();
         bookIDTextField = new javax.swing.JTextField();
         studentIDTextField = new javax.swing.JTextField();
         issueDateChooser = new com.toedter.calendar.JDateChooser();
         dueDateChooser = new com.toedter.calendar.JDateChooser();
         issueButton = new javax.swing.JButton();
         closeButton = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
+        issueBookBackgroundLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(325, 125));
@@ -66,9 +66,9 @@ public class IssueBook extends javax.swing.JFrame {
         issueDateLabel.setText("Issue Date");
         getContentPane().add(issueDateLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(166, 207, -1, -1));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel4.setText("Due Date");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 247, -1, -1));
+        dueDateLabel.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        dueDateLabel.setText("Due Date");
+        getContentPane().add(dueDateLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 247, -1, -1));
 
         bookIDTextField.setBackground(new java.awt.Color(255, 255, 204));
         getContentPane().add(bookIDTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(287, 129, 226, -1));
@@ -79,7 +79,7 @@ public class IssueBook extends javax.swing.JFrame {
         getContentPane().add(dueDateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(287, 245, 226, -1));
 
         issueButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        issueButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/issue book.png"))); // NOI18N
+        issueButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/issue book.png"))); // NOI18N
         issueButton.setText("Issue");
         issueButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -89,7 +89,7 @@ public class IssueBook extends javax.swing.JFrame {
         getContentPane().add(issueButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(287, 285, -1, -1));
 
         closeButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        closeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/red-x-mark-transparent-background-3.png"))); // NOI18N
+        closeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/red-x-mark-transparent-background-3.png"))); // NOI18N
         closeButton.setText("Close");
         closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,8 +98,8 @@ public class IssueBook extends javax.swing.JFrame {
         });
         getContentPane().add(closeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(423, 285, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/123456.png"))); // NOI18N
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 450));
+        issueBookBackgroundLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/123456.png"))); // NOI18N
+        getContentPane().add(issueBookBackgroundLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 450));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -187,11 +187,11 @@ public class IssueBook extends javax.swing.JFrame {
     private javax.swing.JTextField bookIDTextField;
     private javax.swing.JButton closeButton;
     private com.toedter.calendar.JDateChooser dueDateChooser;
+    private javax.swing.JLabel dueDateLabel;
+    private javax.swing.JLabel issueBookBackgroundLabel;
     private javax.swing.JButton issueButton;
     private com.toedter.calendar.JDateChooser issueDateChooser;
     private javax.swing.JLabel issueDateLabel;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel studentIDLabel;
     private javax.swing.JTextField studentIDTextField;
     // End of variables declaration//GEN-END:variables

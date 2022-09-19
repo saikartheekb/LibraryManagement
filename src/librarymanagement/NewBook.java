@@ -43,7 +43,7 @@ public class NewBook extends javax.swing.JFrame {
         publishedYearTextField = new javax.swing.JTextField();
         saveButton = new javax.swing.JButton();
         closeButton = new javax.swing.JButton();
-        jLabel6 = new javax.swing.JLabel();
+        newBookBackgroundLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(325, 125));
@@ -96,7 +96,7 @@ public class NewBook extends javax.swing.JFrame {
         getContentPane().add(publishedYearTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(289, 277, 226, -1));
 
         saveButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        saveButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save-icon--1.png"))); // NOI18N
+        saveButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/save-icon--1.png"))); // NOI18N
         saveButton.setText("Save");
         saveButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,7 +106,7 @@ public class NewBook extends javax.swing.JFrame {
         getContentPane().add(saveButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(289, 321, -1, -1));
 
         closeButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        closeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/red-x-mark-transparent-background-3.png"))); // NOI18N
+        closeButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/red-x-mark-transparent-background-3.png"))); // NOI18N
         closeButton.setText("Close");
         closeButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,8 +115,8 @@ public class NewBook extends javax.swing.JFrame {
         });
         getContentPane().add(closeButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(425, 321, -1, -1));
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/123456.png"))); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        newBookBackgroundLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/123456.png"))); // NOI18N
+        getContentPane().add(newBookBackgroundLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -197,9 +197,9 @@ public class NewBook extends javax.swing.JFrame {
     private javax.swing.JLabel bookIDLabel;
     private javax.swing.JTextField bookIDTextField;
     private javax.swing.JButton closeButton;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel nameLabel;
     private javax.swing.JTextField nameTextField;
+    private javax.swing.JLabel newBookBackgroundLabel;
     private javax.swing.JLabel priceLabel;
     private javax.swing.JTextField priceTextField;
     private javax.swing.JLabel publishedYearLabel;

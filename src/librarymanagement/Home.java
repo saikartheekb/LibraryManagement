@@ -46,7 +46,7 @@ public class Home extends JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         newStudentButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        newStudentButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/member-add-on-300x300.png"))); // NOI18N
+        newStudentButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/member-add-on-300x300.png"))); // NOI18N
         newStudentButton.setText("New Student");
         newStudentButton.setPreferredSize(new java.awt.Dimension(159, 59));
         newStudentButton.addActionListener(new java.awt.event.ActionListener() {
@@ -57,7 +57,7 @@ public class Home extends JFrame {
         getContentPane().add(newStudentButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 17, 170, -1));
 
         newBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        newBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/New book.png"))); // NOI18N
+        newBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/New book.png"))); // NOI18N
         newBookButton.setText("New Book");
         newBookButton.setPreferredSize(new java.awt.Dimension(159, 59));
         newBookButton.addActionListener(new java.awt.event.ActionListener() {
@@ -68,7 +68,7 @@ public class Home extends JFrame {
         getContentPane().add(newBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, 170, -1));
 
         statisticsButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        statisticsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Statics.png"))); // NOI18N
+        statisticsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/Statics.png"))); // NOI18N
         statisticsButton.setText("Statistics");
         statisticsButton.setPreferredSize(new java.awt.Dimension(159, 59));
         statisticsButton.addActionListener(new java.awt.event.ActionListener() {
@@ -79,7 +79,7 @@ public class Home extends JFrame {
         getContentPane().add(statisticsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 20, 170, -1));
 
         issueBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        issueBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/issue.png"))); // NOI18N
+        issueBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/issue.png"))); // NOI18N
         issueBookButton.setText("Issue Book");
         issueBookButton.setPreferredSize(new java.awt.Dimension(159, 59));
         issueBookButton.addActionListener(new java.awt.event.ActionListener() {
@@ -90,7 +90,7 @@ public class Home extends JFrame {
         getContentPane().add(issueBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 20, 170, -1));
 
         returnBookButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        returnBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/return-book-1-560407.png"))); // NOI18N
+        returnBookButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/return-book-1-560407.png"))); // NOI18N
         returnBookButton.setText("Return Book");
         returnBookButton.setPreferredSize(new java.awt.Dimension(159, 59));
         returnBookButton.addActionListener(new java.awt.event.ActionListener() {
@@ -101,7 +101,7 @@ public class Home extends JFrame {
         getContentPane().add(returnBookButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 20, 170, -1));
 
         logoutButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        logoutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/exit.png"))); // NOI18N
+        logoutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/exit.png"))); // NOI18N
         logoutButton.setText("Logout");
         logoutButton.setPreferredSize(new java.awt.Dimension(159, 59));
         logoutButton.addActionListener(new java.awt.event.ActionListener() {
@@ -111,7 +111,7 @@ public class Home extends JFrame {
         });
         getContentPane().add(logoutButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 20, 170, -1));
 
-        backgroundImageHomeLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Library_Book_532388_1366x768.jpg"))); // NOI18N
+        backgroundImageHomeLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/librarymanagement/images/Library_Book_532388_1366x768.jpg"))); // NOI18N
         getContentPane().add(backgroundImageHomeLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(-4, -2, 1370, 770));
 
         pack();
